@@ -1,10 +1,17 @@
 header {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    height: 50px;
-    font-size: 32.5px;
+    height: 30px;
+    font-size: 20px;
     text-decoration: none;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .grid-nav:hover {
@@ -52,7 +59,7 @@ p {
     height: 220px;
 }
 
-a {
+a.box {
     color: black;
     padding: 20px;
     font-size: 14px;
@@ -88,7 +95,8 @@ img.logo {
 }
 
 .social {
-    width: 90px;
+    width: 50px;
+    border-radius: 100px;
 }
 
 .social:hover {
