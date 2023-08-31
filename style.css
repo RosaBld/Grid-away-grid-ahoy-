@@ -1,3 +1,17 @@
+header {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 50px;
+    text-align: center;
+    font-size: 32.5px;
+    text-decoration: none;
+}
+
+.grid-nav:hover {
+    background-color: rgb(88, 179, 202);
+    text-decoration: none;
+}
+
 .grid-container {
     display:grid;
     grid-template-columns: auto auto auto auto;
@@ -18,7 +32,7 @@
     box-shadow: -10px 30px 25px rgb(196, 196, 196);
 }
 
-img {
+img.item {
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -54,4 +68,28 @@ a.box:hover {
     font-size: 14px;
     text-transform: uppercase;
     padding: 15px 30px;
+}
+
+footer {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e4f3f7;
+}
+
+img.logo {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.social {
+    width: 90px;
+}
+
+.social:hover {
+    text-decoration: none;
+    box-shadow: 5px -15px 25px rgb(196, 196, 196);
 }
