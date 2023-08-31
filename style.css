@@ -73,7 +73,7 @@ a.box:hover {
 footer {
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
     height: 50px;
     text-align: center;
     text-decoration: none;
